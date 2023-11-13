@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: contribskopeoimagestable-skopeo
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/lmandvek-tenant/skopeo/contribskopeoimagestable-skopeo@sha256:678f41f975bcdc3d4a3048c8ceca0f5d017f51b302fa84100a1b4fdbd592d356
+        name: container-image
+        resources: {}
+status: {}
