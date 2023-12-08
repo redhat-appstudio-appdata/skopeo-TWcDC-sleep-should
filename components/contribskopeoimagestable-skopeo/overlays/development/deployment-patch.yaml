@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: contribskopeoimagestable-skopeo
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
